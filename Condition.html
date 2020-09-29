@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking your Exam Grade</title>
+</head>
+
+<body>
+    <h1>စာမေးပွဲ ရမှတ် အဆင့် စစ်ဆေးခြင်း</h1>
+    <ul>
+        <li>100 နှင့် 80 marks ကြား = Grade A</li>
+        <li> 79 နှင့် 60 marks ကြား = Grade B</li>
+        <li> 59 နှင့် 40 marks ကြား = Grade C</li>
+        <li> 39 နှင့် 20 marks ကြား = Grade D</li>
+        <li> 19 နှင့် 0 marks ကြား = Grade E</li>
+    </ul>
+    <script>
+        function showGrade(mark) {
+            if (mark <= 100 && mark >= 80) {
+                console.log("Grade A");
+            }
+            else if (mark <= 79 && mark >= 60) {
+                console.log("Grade B");
+            }
+            else if (mark <= 59 && mark >= 40) {
+                console.log("Grade C");
+
+            }
+            else if (mark <= 39 && mark >= 20) {
+                console.log("Grade D");
+
+            }
+            else if (mark <= 19 && mark >= 0) {
+                console.log("Grade E");
+
+            }
+            else {
+                console.log(" Wrong Input");
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>
